@@ -399,5 +399,8 @@ SUTに適した自動化環境が整備され、変化に追従されている�
 ### 結果
 失敗を活かし、同じ罠にはまらないようにテスト自動化を進めていくことが可能になる。
 
+---
 
+#### ライセンスについて
 
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">クリエイティブ・コモンズ 表示 3.0 非移植 ライセンスの下に提供されています。</a>
