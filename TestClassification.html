@@ -4,9 +4,9 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Introduction | テスト自動化パターン言語プロジェクト</title>
+        <title>テスト仕分け | テスト自動化パターン言語プロジェクト</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="これは、関西検証コレクション にて議論された、テスト自動化の暗黙知について、パターン言語へとまとめる試みを行っているプロジェクトです。表現のおかしな所や異論がある場合は、Issuesに投げてもらうか、Forkしてプルリクをいただければ全力で検討を行います！">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 1.1.1">
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -17,8 +17,10 @@
         
     
     
-    <link rel="next" href="./Introduction.html" />
+    <link rel="next" href="./Cat-and-MouseGameofReliability.html" />
     
+    
+    <link rel="prev" href="./ExtensionBuildings.html" />
     
 
         
@@ -30,7 +32,7 @@
 
 
         
-    <div class="book" data-level="0" data-basepath="." data-revision="1413296780539">
+    <div class="book" data-level="3.9" data-basepath="." data-revision="1413296780539">
     
 
 <div class="book-summary">
@@ -48,7 +50,7 @@
         
     
         
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="./index.html">
@@ -277,7 +279,7 @@
         </li>
     
         
-        <li class="chapter " data-level="3.9" data-path="TestClassification.html">
+        <li class="chapter active" data-level="3.9" data-path="TestClassification.html">
             
                 
                     <a href="./TestClassification.html">
@@ -560,14 +562,26 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_19">
+                    <section class="normal" id="section-gitbook_22">
                     
-                        <h1 id="">テスト自動化パターン言語プロジェクト</h1>
-<p>これは、<a href="http://connpass.com/series/489/" target="_blank">関西検証コレクション</a> にて議論された、テスト自動化の暗黙知について、パターン言語へとまとめる試みを行っているプロジェクトです。
-表現のおかしな所や異論がある場合は、Issuesに投げてもらうか、Forkしてプルリクをいただければ全力で検討を行います！</p>
-<hr>
-<h4 id="">ライセンスについて</h4>
-<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">クリエイティブ・コモンズ 表示 3.0 非移植 ライセンスの下に提供されています。</a></p>
+                        <h2 id="">テスト仕分け</h2>
+<h3 id="">文脈</h3>
+<p>シナリオベースの自動化テストで、何をテストしたいのかわからないテストコードに埋め尽くされており、プロダクトコードが価値を実現できているかわからなくなってきている。</p>
+<h3 id="">問題</h3>
+<p>目的不明なテストをパスすることが足かせになり、プロダクトコードのメンテナンスが困難になっている。</p>
+<h3 id="">フォース</h3>
+<ul>
+<li>テストを書く人が何を検証すべきなのか理解できていない。</li>
+<li>エンジニアにドメイン知識が伝わっていない</li>
+<li>エンジニア同士のコミュニケーションの断絶</li>
+</ul>
+<h3 id="">解決</h3>
+<p>テストの意図を調べ、確認できなかったテストコードを捨てる。
+重要なシナリオを抽出して、その価値を検証するテストケースを自動化する</p>
+<h3 id="">結果</h3>
+<ul>
+<li>無駄なテストコードが消えることで、プロダクトコードの変更がやりやすくなる</li>
+</ul>
 
                     
                     </section>
@@ -578,8 +592,10 @@
         </div>
 
         
+        <a href="./ExtensionBuildings.html" class="navigation navigation-prev " aria-label="Previous page: 建て増し旅館"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./Introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page: テスト自動化パタン言語 オーバービュー"><i class="fa fa-angle-right"></i></a>
+        
+        <a href="./Cat-and-MouseGameofReliability.html" class="navigation navigation-next " aria-label="Next page: 信頼性バトル（信頼性イタチゴッコ）"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

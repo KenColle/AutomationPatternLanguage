@@ -4,9 +4,9 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Introduction | テスト自動化パターン言語プロジェクト</title>
+        <title>クラウドトーク（もやもやした会話） | テスト自動化パターン言語プロジェクト</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="これは、関西検証コレクション にて議論された、テスト自動化の暗黙知について、パターン言語へとまとめる試みを行っているプロジェクトです。表現のおかしな所や異論がある場合は、Issuesに投げてもらうか、Forkしてプルリクをいただければ全力で検討を行います！">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 1.1.1">
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -17,7 +17,7 @@
         
     
     
-    <link rel="next" href="./Introduction.html" />
+    <link rel="next" href="./BluePrint.html" />
     
     
 
@@ -30,7 +30,7 @@
 
 
         
-    <div class="book" data-level="0" data-basepath="." data-revision="1413296780539">
+    <div class="book" data-level="3.1" data-basepath="." data-revision="1413296780539">
     
 
 <div class="book-summary">
@@ -48,7 +48,7 @@
         
     
         
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="./index.html">
@@ -149,7 +149,7 @@
                 
     
         
-        <li class="chapter " data-level="3.1" data-path="AmbigiousTalk.html">
+        <li class="chapter active" data-level="3.1" data-path="AmbigiousTalk.html">
             
                 
                     <a href="./AmbigiousTalk.html">
@@ -560,14 +560,32 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_19">
+                    <section class="normal" id="section-gitbook_14">
                     
-                        <h1 id="">テスト自動化パターン言語プロジェクト</h1>
-<p>これは、<a href="http://connpass.com/series/489/" target="_blank">関西検証コレクション</a> にて議論された、テスト自動化の暗黙知について、パターン言語へとまとめる試みを行っているプロジェクトです。
-表現のおかしな所や異論がある場合は、Issuesに投げてもらうか、Forkしてプルリクをいただければ全力で検討を行います！</p>
-<hr>
-<h4 id="">ライセンスについて</h4>
-<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">クリエイティブ・コモンズ 表示 3.0 非移植 ライセンスの下に提供されています。</a></p>
+                        <h2 id="">クラウドトーク（もやもやした会話）</h2>
+<h3 id="">文脈</h3>
+<p><a href="NeedHero.html">求む！英雄</a>の登場により、自動化の環境開発を進める活動を開始したが、開発対象を特定する際に「テスト自動化」という1つの言葉で説明しようとしてしまう。
+（例えば、テストデータの生成のツールを作る話と、テスト結果を判定するツールの内容を「自動化ツール」と表現してしまうことにより、話し手と受け手の理解が異なってしまう。）
+結果として、話し手と受け手の理解が異なるもやもやした会話となっていまい、意思疎通が図れない状態となってしまう。</p>
+<h3 id="">問題</h3>
+<p>自動化の用語特定が出来ていない。
+それぞれが頭に考えている自動化を言葉で特定することが出来ないため、対話時に浮かぶイメージが異なってしまうことで意識齟齬に繋がってしまう。
+また、必要な技術要素の特定が出来ないことから、実施したい目標や成果物が不明確となり、自動化の環境構築を推し進めるコトが困難となる。</p>
+<p>結果の1つとして、<a href="ExtensionBuildings.html">建て増し旅館</a>風のイマイチな自動化システムを作りこんでしまう可能性が高い。</p>
+<h3 id="">フォース</h3>
+<ul>
+<li>自動化を進める際には、ついつい手が先になり、用語や知見が十分で無い状態に陥ることがある。</li>
+<li>（一般的にも）用語が整備されていないことも背景として存在する。</li>
+<li>上記の知見が仮にあったとしても、チーム全体の共通認識がない状態で、突っ走ってしまいがち(<a href="AutomationFavor.html">自動化ハイ</a>)である。</li>
+</ul>
+<h3 id="">解決</h3>
+<ul>
+<li>具体的に自動化の範囲、対象を特定する用語を定義する。</li>
+<li>さらに、モデル図で整理した表現と組合せることにより、意思疎通を行いやすくなる。</li>
+</ul>
+<h3 id="">結果</h3>
+<p>自動化の開発を進めるための用語認識が統一されており、意思疎通が出来る状況となっている。
+また、自動化を特定する用語を分けることによる副次効果として分割特定した項目を深堀、イメージしやすくなり、より高度な技術へとつなげることが出来る可能性が発生している。</p>
 
                     
                     </section>
@@ -579,7 +597,7 @@
 
         
         
-        <a href="./Introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page: テスト自動化パタン言語 オーバービュー"><i class="fa fa-angle-right"></i></a>
+        <a href="./BluePrint.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 全体像を描く"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

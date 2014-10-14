@@ -4,9 +4,9 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Introduction | テスト自動化パターン言語プロジェクト</title>
+        <title>験担ぎ | テスト自動化パターン言語プロジェクト</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="これは、関西検証コレクション にて議論された、テスト自動化の暗黙知について、パターン言語へとまとめる試みを行っているプロジェクトです。表現のおかしな所や異論がある場合は、Issuesに投げてもらうか、Forkしてプルリクをいただければ全力で検討を行います！">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 1.1.1">
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -17,8 +17,10 @@
         
     
     
-    <link rel="next" href="./Introduction.html" />
+    <link rel="next" href="./Anti-Automation.html" />
     
+    
+    <link rel="prev" href="./DawnOfCivilization.html" />
     
 
         
@@ -30,7 +32,7 @@
 
 
         
-    <div class="book" data-level="0" data-basepath="." data-revision="1413296780539">
+    <div class="book" data-level="4.5" data-basepath="." data-revision="1413296780539">
     
 
 <div class="book-summary">
@@ -48,7 +50,7 @@
         
     
         
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="./index.html">
@@ -403,7 +405,7 @@
         </li>
     
         
-        <li class="chapter " data-level="4.5" data-path="LikeACharm.html">
+        <li class="chapter active" data-level="4.5" data-path="LikeACharm.html">
             
                 
                     <a href="./LikeACharm.html">
@@ -560,14 +562,28 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_19">
+                    <section class="normal" id="section-gitbook_13">
                     
-                        <h1 id="">テスト自動化パターン言語プロジェクト</h1>
-<p>これは、<a href="http://connpass.com/series/489/" target="_blank">関西検証コレクション</a> にて議論された、テスト自動化の暗黙知について、パターン言語へとまとめる試みを行っているプロジェクトです。
-表現のおかしな所や異論がある場合は、Issuesに投げてもらうか、Forkしてプルリクをいただければ全力で検討を行います！</p>
-<hr>
-<h4 id="">ライセンスについて</h4>
-<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">クリエイティブ・コモンズ 表示 3.0 非移植 ライセンスの下に提供されています。</a></p>
+                        <h2 id="">験担ぎ</h2>
+<h3 id="">文脈</h3>
+<p>テスト自動化環境が構築されて、少なくとも一度は効果が出た状況である。継続的にテスト自動化でのテスト実施が行われている状態ではあるが、効果がある活用と運用がされていない。「このエラーは出ても問題は無い」という意思決定で運用が行われている。</p>
+<h3 id="">問題</h3>
+<p>テスト自動化実施が定められているので自動化環境を動かす活動は行われている。テスト実施はされているが、明らかなエラーが検出されたとき以外は結果を誰も確認しない。
+結果として、テスト資産が形骸化・陳腐化している。</p>
+<h3 id="">フォース</h3>
+<p>仕様変更などでテスト資産を変化に対して追従させる必要があるが、自動化環境はなぜか無視される。（担当者が異動になった場合などに発生することが多い：たこつぼ化）</p>
+<h3 id="">解決</h3>
+<ul>
+<li>最新のSUTと自動化環境の差を分析して、テスト資産を追従させる。</li>
+<li>エラーが出ていることが、現場でもみ消せないようにプロセスを整備する。</li>
+<li>エラーが出ない環境を作り、そのためのチームの規律を構築する。</li>
+<li>自動化環境の保守を行う担当者{自動化奉行}を決める。</li>
+<li>改善コストがあわないなら、そんな自動化やめちまえ。</li>
+</ul>
+<h3 id="">結果</h3>
+<p>SUTに適した自動化環境が整備され、変化に追従されている。
+変化に追従した環境により、テスト自動化の効果が得られる状態になっている。
+意味のないテスト自動化環境が無くなっている。</p>
 
                     
                     </section>
@@ -578,8 +594,10 @@
         </div>
 
         
+        <a href="./DawnOfCivilization.html" class="navigation navigation-prev " aria-label="Previous page: 文明の曙"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./Introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page: テスト自動化パタン言語 オーバービュー"><i class="fa fa-angle-right"></i></a>
+        
+        <a href="./Anti-Automation.html" class="navigation navigation-next " aria-label="Next page: アンチ自動化"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
