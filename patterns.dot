@@ -33,6 +33,10 @@ digraph graphname {
 		"テスト仕分け"[color=1]
 		"信頼性バトル"[color=1]
 		"ヤブ医者とブラックジャック"[color=1]
+
+		"皮をむく"[color=1]
+		"ピンを生やす"[color=1]
+		"皮もおいしく"[color=1]
 		
 		label = "自動化導入期のパターン"
 
@@ -52,6 +56,8 @@ digraph graphname {
 		"験担ぎ"[color=6]
 		"原住民蜂起"[color=6]
 		"強くてニューゲーム"[color=1]
+
+		"自動家を作る"[color=1]
 
 		label = "自動化の定着、あるいは終焉のパターン"
 
